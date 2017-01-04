@@ -1,0 +1,38 @@
+//Author: Austen
+//Created: 1/4/2017
+import java.util.Scanner;
+import java.util.*;
+public class animal {
+
+	
+	
+	private String name;
+	private boolean hasOwner = false;
+	private int weight; 
+
+	protected static int Animals = 0;
+
+	static Scanner userinput = new Scanner (System.in);
+	
+	 public static void main(String[] args)  {
+		Animals ++;
+        int sumOfNumbers = 5 + 1;
+        System.out.println("5 + 1 = " + sumOfNumbers);
+        
+        int diffOfNumbers = 5 - 1;
+        System.out.println("5 - 1 = " + diffOfNumbers);
+        
+        int multOfNumbers = 5 * 1;
+        System.out.println("5 * 1 = " + multOfNumbers);
+        
+        int divOfNumbers = 5 / 1;
+        System.out.println("5 / 1 = " + divOfNumbers);
+        
+        int modOfNumbers = 5 % 3;
+        System.out.println("5 % 3 = " + modOfNumbers);
+
+        long sumofnewnumbers = 19853^3 - 2^4;
+        System.out.println("19853^3 - 2^4 = " + sumofnewnumbers);
+	}
+}
+
